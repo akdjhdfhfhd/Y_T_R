@@ -41,7 +41,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="❣ قناة البوت ❣", url=config."https://t.me/ah05v"
+                text="❣ قناة البوت ❣", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
                 text="🥀 مطور البوت 🥀", user_id=OWNER
