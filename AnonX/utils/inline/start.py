@@ -36,7 +36,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="❀ الاوامر ❀", callback_data="settings_back_helper"
+                text="❄ الاوامر ❄", callback_data="settings_back_helper"
             )
         ],
         [
@@ -49,7 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✨ لتنصيب البوت ✨", url=config.SUPPORT_CHANNEL
+                text="✨ لتنصيب البوت ✨", url=config.https://t.me/ah05v
             )
         ],
      ]
